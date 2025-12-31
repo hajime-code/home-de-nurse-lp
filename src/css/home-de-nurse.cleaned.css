@@ -602,7 +602,7 @@ body{
   background: var(--card);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 18px 18px 16px;
+  padding: 18px 0px 16px;
 }
 .hdn-list{
   margin: 0;
