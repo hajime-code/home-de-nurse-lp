@@ -1,15 +1,66 @@
 <!doctype html>
 <html lang="ja">
 <head>
-    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="robots" content="noindex, nofollow, noarchive"> -->
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ホームDEナース｜求人</title>
-    <link rel="stylesheet" href="src/css/home-de-nurse.cleaned.css?ver=251231" />
+
+    <title>ホームDEナース｜在宅相談の看護師求人（完全在宅・電話/オンライン）</title>
+    <meta name="description" content="通勤なし・完全在宅で、電話/オンライン相談を行う看護師さんを募集。診断・処方・緊急対応なし。30分枠の予約制で、対応可能時間を事前申告。副業・WワークもOKです。" />
+
+    <link rel="canonical" href="" />
+
+    <!-- OGP -->
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ホームDEナース｜在宅相談の看護師求人（完全在宅・電話/オンライン）" />
+    <meta property="og:description" content="通勤なし・完全在宅で、電話/オンライン相談を行う看護師さんを募集。診断・処方・緊急対応なし。副業・WワークもOK。" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="https://example.com/path/to/og-image.jpg?ver=260109" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="src/css/home-de-nurse.cleaned.css?ver=260109" />
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet"> -->
+    <!-- 見た目を変えずにH1を追加するためのsr-only -->
+    <style>
+      .hdn-sr-only {
+        position: absolute !important;
+        width: 1px; height: 1px;
+        padding: 0; margin: -1px;
+        overflow: hidden; clip: rect(0,0,0,0);
+        white-space: nowrap; border: 0;
+      }
+    </style>
 
+    <!-- 構造化データ（求人）※実データに置換 -->
+    <!-- <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"JobPosting",
+      "title":"在宅相談対応 看護師（電話・オンライン）",
+      "description":"ホームDEナースの『在宅で看護師に相談』サービスで、利用者の不安に寄り添う相談対応。医療行為は行わず、話を聞き状況整理を支援します。診断・処方・緊急対応はありません。",
+      "datePosted":"2026-01-09",
+      "validThrough":"2026-03-31T23:59:59+09:00",
+      "employmentType":"CONTRACTOR",
+      "hiringOrganization":{
+        "@type":"Organization",
+        "name":"ホームDEナース",
+        "url":"https://example.com/"
+      },
+      "jobLocationType":"TELECOMMUTE",
+      "applicantLocationRequirements":{
+        "@type":"Country",
+        "name":"JP"
+      },
+      "directApply": true
+    }
+    </script> -->
 </head>
 
 <body>
@@ -33,15 +84,14 @@
     <!-- Loading -->
 
   <main id="home-de-nurse" class="hdn-lp">
-    <!-- 背景の縦ロゴ -->
-    <!-- <div class="hdn-side hdn-side--left" aria-hidden="true">HOME DE NURSE</div> -->
-    <!-- <div class="hdn-side hdn-side--right" aria-hidden="true">MESSAGE</div> -->
+    <!-- 検索エンジン向けのH1（見た目は非表示） -->
+    <h1 class="hdn-sr-only">ホームDEナース 在宅相談対応の看護師求人（完全在宅・電話/オンライン）</h1>
 
     <!-- HERO -->
     <header class="hdn-hero">
       <div class="hdn-hero__media">
         <figure class="hdn-hero__shot hdn-reveal">
-          <img src="src/img/fv_img02.png" alt="" loading="lazy" />
+          <img src="src/img/fv_img.png?ver=260109" alt="在宅で看護師が相談対応を行うサービスイメージ" decoding="async" fetchpriority="high" />
         </figure>
         <div class="hdn-hero__divider hdn-reveal" aria-hidden="true"></div>
       </div>
@@ -67,14 +117,13 @@
         <div class="hdn-inner">
             <div class="about-wrap">
                 <div class="about-deco about-deco--left" aria-hidden="true">
-                    <!-- <img src="/img/lp_circle.png" alt="" loading="lazy"> -->
                     <picture>
-                      <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png">
-                      <img src="src/img/lp_circle.png" alt="" loading="lazy">
+                      <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png?ver=260109">
+                      <img src="src/img/lp_circle.png?ver=260109" alt="" loading="lazy" decoding="async">
                     </picture>
                 </div>
                 <div class="about-deco about-deco--right" aria-hidden="true">
-                    <img src="src/img/lp_text_img.png" alt="" loading="lazy">
+                    <img src="src/img/lp_text_img.png?ver=260109" alt="" loading="lazy" decoding="async">
                 </div>
                 <h2 class="hdn-h2 hdn-reveal">このお仕事について</h2>
                 <p class="hdn-text hdn-reveal">
@@ -111,18 +160,16 @@
 
     <!-- WORKSTYLE -->
     <section class="hdn-sec" id="workstyle">
-      
         <div class="hdn-inner">
           <div class="inner-wrap">
 
             <div class="workstyle-deco workstyle-deco--tl" aria-hidden="true">
-                <img src="src/img/detail_img.png" alt="" loading="lazy">
+                <img src="src/img/detail_img.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <div class="workstyle-deco workstyle-deco--tr" aria-hidden="true">
-                <!-- <img src="/img/lp_circle.png" alt="" loading="lazy"> -->
                 <picture>
-                  <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png">
-                  <img src="src/img/lp_circle.png" alt="" loading="lazy">
+                  <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png?ver=260109">
+                  <img src="src/img/lp_circle.png?ver=260109" alt="" loading="lazy" decoding="async">
                 </picture>
             </div>
 
@@ -138,48 +185,47 @@
         </div>
     </section>
 
-
     <!-- TARGET -->
     <section class="hdn-sec" id="target">
       <div class="hdn-inner">
         <h2 class="hdn-h2 hdn-reveal">こんな看護師さんを<br>求めています</h2>
 
         <figure class="hdn-target__topimg hdn-reveal" aria-hidden="true">
-            <img src="src/img/target_h2.png" alt="" loading="lazy">
+            <img src="src/img/target_h2.png?ver=260109" alt="" loading="lazy" decoding="async">
         </figure>
 
         <div class="hdn-target">
           <div class="hdn-target__item hdn-reveal">
             <div class="hdn-target__icon" aria-hidden="true">
-                <img src="src/img/target_icon01.png" alt="">
+                <img src="src/img/target_icon01.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <p>看護師免許をお持ちの方</p>
           </div>
 
           <div class="hdn-target__item hdn-reveal">
             <div class="hdn-target__icon" aria-hidden="true">
-                <img src="src/img/target_icon02.png" alt="">
+                <img src="src/img/target_icon02.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <p>臨床経験を活かしたい方</p>
           </div>
 
           <div class="hdn-target__item hdn-reveal">
             <div class="hdn-target__icon" aria-hidden="true">
-                <img src="src/img/target_icon03.png" alt="">
+                <img src="src/img/target_icon03.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <p>人の話を丁寧に聞くのが得意な方</p>
           </div>
 
           <div class="hdn-target__item hdn-reveal">
             <div class="hdn-target__icon" aria-hidden="true">
-                <img src="src/img/target_icon04.png" alt="">
+                <img src="src/img/target_icon04.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <p>医療現場を離れても、<br>看護師として誰かへ寄り添いたい方</p>
           </div>
 
           <div class="hdn-target__item hdn-reveal">
             <div class="hdn-target__icon" aria-hidden="true">
-                <img src="src/img/target_icon05.png" alt="">
+                <img src="src/img/target_icon05.png?ver=260109" alt="" loading="lazy" decoding="async">
             </div>
             <p>在宅で無理なく働きたい方</p>
           </div>
@@ -187,28 +233,10 @@
       </div>
     </section>
 
-    <!-- <section class="hdn-sec hdn-sec--soft" id="benefits">
+    <!-- ★重複していた id="details" を変更（HTMLの正当性UP） -->
+    <section class="hdn-sec" id="benefits">
       <div class="hdn-inner">
-        <div class="details-wrap">
-            <h2 class="hdn-h2 hdn-reveal">この仕事の魅力</h2>
-            <div class="hdn-card hdn-reveal">
-                <ul class="hdn-list">
-                    <li>通勤ゼロ、自宅で完結</li>
-                    <li>医療行為なし、精神的負担が少ない</li>
-                    <li>「ありがとう」が直ぐ届く仕事</li>
-                    <li>これまでの経験がそのまま活きる</li>
-                    <li>家事やプライベートと両立しやすい</li>
-                    <li>スキマ時間で稼ぐことができます</li>
-                    <li>AIナースが相談内容を一緒に考えてくれるので安心</li>
-                </ul>
-            </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="hdn-sec" id="details">
-      <div class="hdn-inner">
-        <div class="details-wrap">
+        <div class="benefits-wrap">
             <h2 class="hdn-h2 hdn-reveal">この仕事の魅力</h2>
             <div class="hdn-card hdn-reveal">
                 <ul class="hdn-list">
@@ -228,10 +256,9 @@
     <!-- REWARD -->
     <section class="hdn-sec" id="reward">
         <div class="about-deco about-deco--left" aria-hidden="true">
-            <!-- <img src="/img/lp_circle.png" alt="" loading="lazy"> -->
             <picture>
-              <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png">
-              <img src="src/img/lp_circle.png" alt="" loading="lazy">
+              <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png?ver=260109">
+              <img src="src/img/lp_circle.png?ver=260109" alt="" loading="lazy" decoding="async">
             </picture>
         </div>
         <div class="hdn-inner">
@@ -253,7 +280,7 @@
         <h2 class="hdn-h2 hdn-reveal">お仕事開始まで</h2>
 
         <div class="flow-img hdn-reveal" aria-hidden="true">
-            <img src="src/img/flow_img.png" alt="" loading="lazy">
+            <img src="src/img/flow_img.png?ver=260109" alt="" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -262,13 +289,12 @@
     <section class="hdn-sec" id="apply">
 
         <div class="apply-deco apply-deco--left" aria-hidden="true">
-            <img src="src/img/lp_text_img02.png" alt="" loading="lazy">
+            <img src="src/img/lp_text_img02.png?ver=260109" alt="" loading="lazy" decoding="async">
         </div>
         <div class="apply-deco apply-deco--right" aria-hidden="true">
-            <!-- <img src="/img/lp_circle.png" alt="" loading="lazy"> -->
             <picture>
-              <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png">
-              <img src="src/img/lp_circle.png" alt="" loading="lazy">
+              <source media="(min-width: 861px)" srcset="src/img/lp_circle_02.png?ver=260109">
+              <img src="src/img/lp_circle.png?ver=260109" alt="" loading="lazy" decoding="async">
             </picture>
         </div>
 
@@ -288,13 +314,10 @@
             <a class="lp-btn hdn-btn--ghost" href="https://forms.gle/u7mg8ZjHPsZXCsrRA" target="_blank" rel="noopener noreferrer">応募・相談はこちら</a>
             </div>
 
-            <!-- <p class="hdn-small hdn-reveal">
-            お急ぎの方はお電話でも：<a class="hdn-tel" href="tel:0572583500">0572-58-3500</a>
-            </p> -->
         </div>
     </section>
   </main>
 
-  <script src="src/js/home-de-nurse.js" defer></script>
+  <script src="src/js/home-de-nurse.js?ver=260109" defer></script>
 </body>
 </html>
