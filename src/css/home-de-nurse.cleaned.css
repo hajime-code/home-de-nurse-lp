@@ -437,7 +437,8 @@ body{
 
 #about .about-wrap,
 #details .details-wrap,
-#benefits .details-wrap{
+#benefits .details-wrap,
+#benefits .benefits-wrap{
   width: min(var(--content-max), 100%);
   margin: 0 auto;
   position: relative;
@@ -488,13 +489,15 @@ body{
 }
 
 /* DETAILS */
-#details{
+#details,
+#benefits{
   position: relative;
   background: linear-gradient(180deg, #fff7c2 0%, #f2d6c0 100%);
   overflow: hidden;
 }
 
-#details::before{
+#details::before,
+#benefits::before{
   content: "";
   position: absolute;
   inset: 0;
@@ -507,35 +510,34 @@ body{
   mix-blend-mode: overlay;
 }
 
-/* #details .hdn-inner{
-  position: relative;
-  z-index: 1;
-  padding: 30px 0 50px;
-} */
-
-#details .hdn-inner{
+#details .hdn-inner,
+#benefits .hdn-inner{
   position: relative;
   z-index: 1;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-#details .hdn-h2 {
+#details .hdn-h2,
+#benefits .hdn-h2{
   background: #fff;
   padding: 10px 0;
 }
 
-#details .hdn-card {
+#details .hdn-card,
+#benefits .hdn-card {
   background: none;
   box-shadow: none;
 }
 
-#details .hdn-list {
+#details .hdn-list,
+#benefits .hdn-list {
   font-size: 18px;
   line-height: 2.2;
 }
 
-#details .hdn-list li{
+#details .hdn-list li,
+#benefits .hdn-list li{
   border-bottom: 3px dotted rgba(255,255,255,.9);
 }
 
@@ -908,6 +910,7 @@ body{
   .lp-btn,
   .hdn-text,
   #details .hdn-list,
+  #benefits .hdn-list,
   .hdn-pill,
   .hdn-target__item p,
   .hdn-rewardbox__list,
