@@ -2,14 +2,14 @@
 body{ 
   font-family:"Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   margin: 0;
+
+  /* 改行設定 */
+  line-break: strict;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 /* ===== Loading Overlay ===== */
 .hdn-is-loading body{ overflow: hidden; }
-
-p, h1, h2, h3, h4, h5, h6, li, dt, dd {
-  word-break: keep-all;
-  overflow-wrap: anywhere;
-}
 
 .hdn-loader{
   position: fixed;
