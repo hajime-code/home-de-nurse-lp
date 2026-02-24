@@ -6,6 +6,11 @@ body{
 /* ===== Loading Overlay ===== */
 .hdn-is-loading body{ overflow: hidden; }
 
+p, h1, h2, h3, h4, h5, h6, li, dt, dd {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
 .hdn-loader{
   position: fixed;
   inset: 0;

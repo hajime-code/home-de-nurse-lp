@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="src/css/home-de-nurse.cleaned.css?ver=260109" />
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- 改行 -->
+    <script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
+
     <!-- 見た目を変えずにH1を追加するためのsr-only -->
     <style>
       .hdn-sr-only {
@@ -319,5 +322,18 @@
   </main>
 
   <script src="src/js/home-de-nurse.js?ver=260109" defer></script>
+
+  <!-- 改行 -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const parser = BudouX.loadDefaultJapaneseParser();
+      const targetElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, dt, dd, .hden-staff-description');
+      
+      targetElements.forEach(el => {
+        parser.applyToElement(el);
+      });
+    });
+  </script>
+
 </body>
 </html>
